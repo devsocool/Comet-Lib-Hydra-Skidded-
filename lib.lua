@@ -1144,7 +1144,7 @@ local function getObjGen()
             Gui.Image.BackgroundTransparency = 1.000
             Gui.Image.Size = UDim2.new(0.400000006, 0, 0.400000006, 0)
             Gui.Image.ZIndex = 123
-            Gui.Image.Image = "rbxassetid://8349124615"
+            Gui.Image.Image = "rbxassetid://8349124615" 
             Gui.Image.ImageColor3 = Color3.fromRGB(90, 90, 90)
 
             Gui.UIAspectRatioConstraint_6.Parent = Gui.Image
@@ -1209,7 +1209,7 @@ local function getObjGen()
             Gui.Watermark.BackgroundTransparency = 1.000
             Gui.Watermark.Size = UDim2.new(0.5, 0, 0.0199999996, 0)
             Gui.Watermark.Font = Enum.Font.Gotham
-            Gui.Watermark.Text = "Comethub v2 | nil | nil"
+            Gui.Watermark.Text = "CometHub v2 | nil | nil"
             Gui.Watermark.TextColor3 = Color3.fromRGB(255, 255, 255)
             Gui.Watermark.TextSize = 14.000
             Gui.Watermark.TextStrokeTransparency = 0.800
@@ -1373,7 +1373,6 @@ local function getObjGen()
             Gui.Logo.Size = UDim2.new(1, 0, 0.100000001, 0)
             Gui.Logo.ZIndex = 122
             Gui.Logo.Image = "rbxassetid://84806052919514"
-            Gui.Logo.ImageColor3 = Color3.fromRGB(134, 142, 255)
             Gui.Logo.ScaleType = Enum.ScaleType.Fit
 
             Gui.UIGradient_5.Color =
@@ -3247,7 +3246,7 @@ function UILibrary.new(gameName, userId, rank)
     window.Parent = GUI
 
     --// make UI draggable
-    -->> LogoHitbox
+    -->> LogoHitbox 84806052919514
 
     local Frame = Instance.new("Frame")
     Frame.BackgroundTransparency = 1
@@ -4286,7 +4285,7 @@ function UILibrary.Section:Toggle(sett, callback)
                 element,
                 TI,
                 {
-                    BackgroundColor3 = Color3.fromRGB(134, 142, 255)
+                    BackgroundColor3 = Color3.fromRGB(73, 148, 255)
                 }
             ):Play()
         else
@@ -4818,7 +4817,7 @@ function UILibrary.Section:ColorPicker(sett, callback)
                 end
             )
         )
-
+        
         local function closeMenu()
             for i, v in pairs(connections) do
                 v:Disconnect()
